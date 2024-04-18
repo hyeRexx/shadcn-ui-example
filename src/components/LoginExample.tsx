@@ -1,6 +1,7 @@
 "use client";
 
 import { Button, Card, Checkbox, Input, Label, Switch } from "@ui";
+import { IdentityRecoveryDialog } from "./IdentityRecoveryDialog";
 
 export function LoginExample() {
   return (
@@ -31,6 +32,7 @@ export function LoginExample() {
           <Button className="w-full">로그인</Button>
         </Card.CardFooter>
       </Card.Card>
+      <IdentityRecoveryDialog />
     </main>
   );
 }
