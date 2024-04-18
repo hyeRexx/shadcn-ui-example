@@ -10,8 +10,12 @@ export function LoginExample() {
           <Card.CardTitle>로그인</Card.CardTitle>
         </Card.CardHeader>
         <Card.CardContent className="flex flex-col gap-y-2 pb-4">
-          <Input placeholder="아이디를 입력하세요." />
-          <Input placeholder="비밀번호를 입력하세요." type="password" />
+          <Input variant="myInput" placeholder="아이디를 입력하세요." />
+          <Input
+            variant="myInput"
+            placeholder="비밀번호를 입력하세요."
+            type="password"
+          />
         </Card.CardContent>
         <Card.CardFooter className="block">
           <div className="w-full flex justify-between mb-2">
