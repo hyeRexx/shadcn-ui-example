@@ -1,3 +1,5 @@
-export default function Home() {
-  return <main>Hello from main page!</main>;
+import { LoginExample } from "@/components/LoginExample";
+
+export default function Page() {
+  return <LoginExample />;
 }
